@@ -1,0 +1,60 @@
+span.activo:hover{
+    background-color: yellow;
+    color: red;
+}
+
+.grande{
+    font-size: 100px;
+    color: black;
+}
+.titu{
+    color: blue;
+    text-align: center;
+}
+
+.uno{
+    color: blue;
+    text-align: center;
+}
+.primera::first-line{
+    color: red;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.primera::before{
+    content: counter(cuentaciclos) ". ";
+    counter-increment: cuentaciclos;
+}
+
+a:link{
+    background-color: white;
+    color: blue;
+}
+
+a:visited{
+    background-color: blue;
+    color: white;
+}
+
+h3{
+    counter-reset: couentacilcos;
+}
+
+.productos::before{
+    content: counter(couentacilcos) ". ";
+    counter-increment: couentacilcos;
+}
+
+.jobs{
+    display: flex;
+}
+
+img{
+    float: right;
+    height: 375px;
+    width: 375px;
+    margin-top: 85px;
+}
